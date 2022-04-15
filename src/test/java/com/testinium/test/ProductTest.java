@@ -16,6 +16,7 @@ public class ProductTest extends BaseTest {
         homePage.home();
         loginPage.login();
         productPage.product();
+                System.out.println("İslem basarili");
 
     }
 }
