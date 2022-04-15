@@ -10,5 +10,6 @@ public class LoginTest extends BaseTest {
 
         LoginPage loginPage= new LoginPage();
         loginPage.login();
+        System.out.println("Login Test Basarili");
     }
 }
