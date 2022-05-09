@@ -53,6 +53,7 @@ public class Methods {
     }
     public void waitUntilPresence(By by){           //Element Hazır olana kadar bekle
         log.info("Elementin hazır olması bekleniyor");
+        log.info("Yeni commit eklenmiştir");
         wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(by));
     }
     public boolean waitUntilElementAppear(By by){      //element görünene kadar bekleme methodu
