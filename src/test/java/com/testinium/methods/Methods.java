@@ -57,6 +57,7 @@ public class Methods {
     public boolean waitUntilElementAppear(By by){      //element görünene kadar bekleme methodu
         try {
             log.info("Elementin görünür olması bekleniyor");
+            log.info("deneme");
             wait.until(ExpectedConditions.visibilityOfElementLocated(by));
             return true;
         }catch (Exception e){
