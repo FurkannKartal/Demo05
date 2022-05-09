@@ -57,8 +57,8 @@ public class Methods {
     public boolean waitUntilElementAppear(By by){      //element görünene kadar bekleme methodu
         try {
             log.info("Elementin görünür olması bekleniyor");
-            log.info("deneme");
-            log.info("commit has been added");
+            log.info("denemeeee");
+            log.info("commit has been addeddd");
             wait.until(ExpectedConditions.visibilityOfElementLocated(by));
             return true;
         }catch (Exception e){
@@ -79,6 +79,7 @@ public class Methods {
     }
     public void cpmboBox(By by,String massage){
         log.info("Butona tıklama işlemi yapılır");
+        log.info("Commit shas been added");
         WebElement selectElement= driver.findElement(by);
         Select select= new Select(selectElement);
         select.selectByVisibleText(massage);
