@@ -58,6 +58,7 @@ public class Methods {
         try {
             log.info("Elementin görünür olması bekleniyor");
             log.info("deneme");
+            log.info("ikinci commit atıldı");
             wait.until(ExpectedConditions.visibilityOfElementLocated(by));
             return true;
         }catch (Exception e){
