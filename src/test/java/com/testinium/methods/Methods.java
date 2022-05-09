@@ -44,6 +44,7 @@ public class Methods {
         Actions actions= new Actions(driver);
         log.info(by+"Elementine scroll edildi");
         log.info("commit eklendi");
+        log.info("commit eklendi mi")
         actions.moveToElement(findElement(by)).build().perform();
     }
 
