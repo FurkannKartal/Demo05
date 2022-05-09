@@ -43,6 +43,7 @@ public class Methods {
     public void hoverElement(By by){
         Actions actions= new Actions(driver);
         log.info(by+"Elementine scroll edildi");
+        log.info("commit eklendi");
         actions.moveToElement(findElement(by)).build().perform();
     }
 
